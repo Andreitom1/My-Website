@@ -2,3 +2,42 @@ body {
   background-color: white;
   font-family: Arial
 }
+a {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  color: #0088ff;
+}
+#nav {
+  display: flex;
+  justify-content: flex-start;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none
+}
+.navbutton {
+  cursor: pointer;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #444444;
+  border-radius: 0px;
+  border: 0px;
+  color: white
+}
+.navhere {
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #666666;
+  border-radius: 0px;
+  border: 0px;
+  color: white
+}
+.navbutton:hover {
+  background-color: #666666
+}
+.navbutton:active {
+  background-color: #222222
+}
