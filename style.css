@@ -8,6 +8,7 @@ a {
 }
 a:hover {
   color: #0088ff;
+  text-decoration: underline;
 }
 #nav {
   display: flex;
