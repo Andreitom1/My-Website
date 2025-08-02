@@ -1,0 +1,11 @@
+body {
+  animation: in 1s linear;
+}
+@keyframes in {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
